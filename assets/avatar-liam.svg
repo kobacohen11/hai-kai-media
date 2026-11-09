@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="איור דמות מחייכת">
+  <defs>
+    <radialGradient id="lm-bg" cx="35%" cy="25%" r="85%"><stop offset="0" stop-color="#9ff0ff"/><stop offset=".5" stop-color="#3d8bff"/><stop offset="1" stop-color="#1b3fb8"/></radialGradient>
+    <radialGradient id="lm-skin" cx="42%" cy="38%" r="70%"><stop offset="0" stop-color="#ffe2cf"/><stop offset=".6" stop-color="#f6c3a4"/><stop offset="1" stop-color="#d9927a"/></radialGradient>
+    <linearGradient id="lm-hair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2219"/><stop offset="1" stop-color="#1c0f0a"/></linearGradient>
+    <linearGradient id="lm-hair-hi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7a4a35" stop-opacity=".9"/><stop offset="1" stop-color="#7a4a35" stop-opacity="0"/></linearGradient>
+    <radialGradient id="lm-iris" cx="45%" cy="40%" r="60%"><stop offset="0" stop-color="#5f8a4a"/><stop offset="1" stop-color="#2b3f1f"/></radialGradient>
+    <linearGradient id="lm-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2c3550"/><stop offset="1" stop-color="#121729"/></linearGradient>
+    <clipPath id="lm-clip"><circle cx="100" cy="100" r="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#lm-clip)">
+    <circle cx="100" cy="100" r="100" fill="url(#lm-bg)"/>
+    <circle cx="60" cy="40" r="40" fill="#fff" opacity=".12"/>
+    <!-- body -->
+    <path d="M30 210 Q34 164 100 158 Q166 164 170 210 Z" fill="url(#lm-top)"/>
+    <path d="M84 160 L100 180 L116 160" fill="none" stroke="#5ee2ff" stroke-width="3" stroke-linejoin="round"/>
+    <!-- neck -->
+    <path d="M85 136 L85 164 Q100 172 115 164 L115 136 Z" fill="#d9927a"/>
+    <!-- ears -->
+    <ellipse cx="55" cy="106" rx="8" ry="11" fill="#eeb090"/>
+    <ellipse cx="145" cy="106" rx="8" ry="11" fill="#eeb090"/>
+    <!-- head -->
+    <path d="M54 96 Q54 52 100 50 Q146 52 146 96 L146 112 Q144 146 100 152 Q56 146 54 112 Z" fill="url(#lm-skin)"/>
+    <!-- short beard shadow -->
+    <path d="M62 120 Q66 148 100 152 Q134 148 138 120 Q128 140 100 142 Q72 140 62 120 Z" fill="#5a3a2c" opacity=".35"/>
+    <!-- hair -->
+    <path d="M52 98 Q46 42 100 36 Q156 40 148 98 Q146 76 132 66 Q118 60 96 64 Q74 62 62 74 Q54 84 52 98 Z" fill="url(#lm-hair)"/>
+    <path d="M68 52 Q100 36 132 52 Q104 46 80 58 Z" fill="url(#lm-hair-hi)"/>
+    <!-- brows -->
+    <path d="M71 87 Q82 81 92 86" fill="none" stroke="#2a170f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M108 86 Q118 81 129 87" fill="none" stroke="#2a170f" stroke-width="4" stroke-linecap="round"/>
+    <!-- eyes -->
+    <ellipse cx="82" cy="102" rx="9.5" ry="11" fill="#fff"/>
+    <ellipse cx="118" cy="102" rx="9.5" ry="11" fill="#fff"/>
+    <circle cx="83" cy="104" r="7.5" fill="url(#lm-iris)"/>
+    <circle cx="117" cy="104" r="7.5" fill="url(#lm-iris)"/>
+    <circle cx="83" cy="105" r="3.4" fill="#0f1209"/>
+    <circle cx="117" cy="105" r="3.4" fill="#0f1209"/>
+    <circle cx="86" cy="100" r="2.6" fill="#fff"/>
+    <circle cx="120" cy="100" r="2.6" fill="#fff"/>
+    <circle cx="80.5" cy="108" r="1.2" fill="#fff" opacity=".8"/>
+    <circle cx="114.5" cy="108" r="1.2" fill="#fff" opacity=".8"/>
+    <!-- cheeks -->
+    <ellipse cx="70" cy="122" rx="8" ry="5" fill="#ff7c7c" opacity=".25"/>
+    <ellipse cx="130" cy="122" rx="8" ry="5" fill="#ff7c7c" opacity=".25"/>
+    <!-- nose -->
+    <path d="M98 110 Q102 118 105 115" fill="none" stroke="#c98066" stroke-width="2.4" stroke-linecap="round"/>
+    <!-- smile -->
+    <path d="M84 126 Q100 145 116 126 Q100 131 84 126 Z" fill="#9c3446"/>
+    <path d="M87 127 Q100 131 113 127 L112 130 Q100 133 88 130 Z" fill="#fff"/>
+  </g>
+</svg>
