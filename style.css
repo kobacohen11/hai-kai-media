@@ -623,3 +623,28 @@ form button[type="submit"].btn-p:hover{box-shadow:0 0 44px -4px rgba(37,211,102,
 @media (min-width:761px){
   .proc::before{display:block!important;top:24px!important;height:3px!important;border-radius:3px;background:linear-gradient(90deg,transparent,#e07b55 12%,#f6b08f 50%,#e07b55 88%,transparent)!important;box-shadow:0 0 14px 1px rgba(224,123,85,.75)!important}
 }
+/* ===== iPhone fix (9.11): visible hero image, no half-cut cards ===== */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{overflow-x:clip}
+@media (max-width:760px){
+  .hero{padding:0 0 40px!important}
+  .hero-bg{position:relative!important;inset:auto!important;display:block;height:290px;opacity:1!important;filter:saturate(1.12) brightness(1.08)!important;transform:none!important;animation:none!important;background-position:22% 50%!important;background-size:cover!important;-webkit-mask-image:linear-gradient(to bottom,#000 62%,transparent 100%);mask-image:linear-gradient(to bottom,#000 62%,transparent 100%)}
+  .hero-shade{display:none!important}
+  .hero .wrap{position:relative;z-index:2;margin-top:-64px}
+  .hero-txt{gap:18px!important}
+  /* method + process: stacked, not cut */
+  #why .vs,#process .proc{display:flex!important;flex-direction:column;overflow:visible!important;margin-inline:0!important;padding:0!important;scroll-snap-type:none!important}
+  #why .vs>.vs-col,#process .proc>.step{flex:none!important;width:100%}
+  #why .vs::after,#process .proc::after{display:none!important}
+  #why .swipe-hint,#process .swipe-hint{display:none!important}
+  #why .vs-col{padding:24px 20px!important}
+  #why .vs-col.old{opacity:.85}
+}
+@media (max-width:760px){
+  #process .proc{gap:10px!important}
+  #process .step{display:grid!important;grid-template-columns:44px minmax(0,1fr);column-gap:14px;row-gap:4px;align-items:start;padding:16px!important;text-align:start}
+  #process .step .dot{grid-row:1/span 3;grid-column:1;width:44px!important;height:44px!important;font-size:15px!important;margin:0!important}
+  #process .step>*:not(.dot){grid-column:2;margin:0!important}
+  #process .step h3{font-size:18px!important}
+  #process .step p{font-size:14.5px!important;line-height:1.6}
+}
