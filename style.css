@@ -658,3 +658,13 @@ body{overflow-x:clip}
 .vs-col.old li::before{color:#ff8f7a!important;font-weight:800;box-shadow:inset 0 0 0 1.5px rgba(255,143,122,.7)!important}
 /* gold 5-star rating (9.11) */
 .kai .stars{color:#ffc93c!important;letter-spacing:4px;font-size:20px;text-shadow:0 0 1px #000,0 1px 1px rgba(0,0,0,.85),0 0 12px rgba(255,201,60,.6)!important}
+/* marketing steps: a matching photo behind each card (9.11) */
+.mkt-steps li{--ov:linear-gradient(to left,rgba(13,36,43,.97) 0%,rgba(13,36,43,.9) 42%,rgba(13,36,43,.45) 72%,rgba(13,36,43,.12) 100%);overflow:hidden;min-height:118px;align-items:center}
+.mkt-steps li:nth-child(1){background:var(--ov),url(assets/mkt-step-1.jpg?v=1) left 45%/cover no-repeat!important}
+.mkt-steps li:nth-child(2){background:var(--ov),url(assets/mkt-step-2.jpg?v=1) left 35%/cover no-repeat!important}
+.mkt-steps li:nth-child(3){background:var(--ov),url(assets/mkt-step-3.jpg?v=1) left 60%/cover no-repeat!important}
+.mkt-steps li:nth-child(4){background:var(--ov),url(assets/mkt-step-4.jpg?v=1) left 45%/cover no-repeat!important}
+.mkt-steps li:nth-child(5){background:var(--ov),url(assets/mkt-step-5.jpg?v=1) left 60%/cover no-repeat!important}
+@media (max-width:760px){
+  .mkt-steps li{--ov:linear-gradient(to left,rgba(13,36,43,.95) 0%,rgba(13,36,43,.86) 50%,rgba(13,36,43,.55) 100%);min-height:104px}
+}
