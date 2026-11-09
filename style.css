@@ -648,3 +648,11 @@ body{overflow-x:clip}
   #process .step h3{font-size:18px!important}
   #process .step p{font-size:14.5px!important;line-height:1.6}
 }
+/* ===== crisp white text + thin black outline everywhere (9.11) ===== */
+.kai{--mute:#e3eaec;text-shadow:0 0 1px #000,0 0 1px #000,0 1px 1px rgba(0,0,0,.9)}
+.kai p,.kai li,.kai blockquote,.kai summary,.kai .sec-note,.kai .q-role,.kai .h-sub,.kai .vs-col h3{color:#fff!important}
+.kai .h1,.kai .sec-title,.kai h2,.kai h3,.kai p,.kai li,.kai blockquote,.kai summary,.kai label,.kai .sec-note,.kai .q-role,.kai .h-sub,.kai .en{text-shadow:0 0 1px #000,0 0 1px #000,0 1px 1px rgba(0,0,0,.9)!important}
+/* "without method" card: clear and bold, so the difference reads */
+.vs-col li{font-weight:600}
+.vs-col.old{opacity:1!important;background:rgba(8,24,30,.55)!important;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.28)!important}
+.vs-col.old li::before{color:#ff8f7a!important;font-weight:800;box-shadow:inset 0 0 0 1.5px rgba(255,143,122,.7)!important}
