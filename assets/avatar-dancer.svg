@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="איור דמות מחייכת">
   <defs>
-    <radialGradient id="av-bg" cx="35%" cy="25%" r="85%"><stop offset="0" stop-color="#9ff0ff"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#ff5fb4"/></radialGradient>
+    <radialGradient id="av-bg" cx="35%" cy="25%" r="85%"><stop offset="0" stop-color="#f6fafb"/><stop offset=".65" stop-color="#dfecee"/><stop offset="1" stop-color="#bcd3d7"/></radialGradient>
     <radialGradient id="av-skin" cx="42%" cy="38%" r="70%"><stop offset="0" stop-color="#ffe6d6"/><stop offset=".6" stop-color="#ffcdb2"/><stop offset="1" stop-color="#e9a283"/></radialGradient>
     <linearGradient id="av-hair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a2e22"/><stop offset="1" stop-color="#2d1410"/></linearGradient>
     <linearGradient id="av-hair-hi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9a5a3f" stop-opacity=".9"/><stop offset="1" stop-color="#9a5a3f" stop-opacity="0"/></linearGradient>
@@ -22,10 +22,10 @@
     <!-- ears -->
     <ellipse cx="55" cy="106" rx="8" ry="11" fill="#f2b496"/>
     <ellipse cx="145" cy="106" rx="8" ry="11" fill="#f2b496"/>
-    <circle cx="54" cy="120" r="4" fill="#5ee2ff" stroke="#fff" stroke-width="1.5"/>
-    <circle cx="146" cy="120" r="4" fill="#5ee2ff" stroke="#fff" stroke-width="1.5"/>
+    <circle cx="54" cy="120" r="4" fill="#4fc3c9" stroke="#fff" stroke-width="1.5"/>
+    <circle cx="146" cy="120" r="4" fill="#4fc3c9" stroke="#fff" stroke-width="1.5"/>
     <!-- head -->
-    <ellipse cx="100" cy="100" rx="46" ry="50" fill="url(#av-skin)"/>
+    <ellipse cx="100" cy="100" rx="46" ry="50" fill="url(#av-skin)" stroke="#b9785a" stroke-width="2.2"/>
     <!-- bangs -->
     <path d="M53 98 Q50 48 100 44 Q152 48 147 98 Q140 72 120 64 Q112 76 88 72 Q66 76 53 98 Z" fill="url(#av-hair)"/>
     <path d="M70 56 Q92 44 122 52 Q100 52 82 62 Z" fill="url(#av-hair-hi)"/>
@@ -46,8 +46,8 @@
     <path d="M71 96 Q82 87 93 95" fill="none" stroke="#2d1410" stroke-width="2.4" stroke-linecap="round"/>
     <path d="M107 95 Q118 87 129 96" fill="none" stroke="#2d1410" stroke-width="2.4" stroke-linecap="round"/>
     <!-- cheeks -->
-    <ellipse cx="70" cy="122" rx="9" ry="6" fill="#ff7c9c" opacity=".45"/>
-    <ellipse cx="130" cy="122" rx="9" ry="6" fill="#ff7c9c" opacity=".45"/>
+    <ellipse cx="70" cy="122" rx="9" ry="6" fill="#e07b55" opacity=".45"/>
+    <ellipse cx="130" cy="122" rx="9" ry="6" fill="#e07b55" opacity=".45"/>
     <!-- nose -->
     <path d="M98 112 Q101 117 104 114" fill="none" stroke="#d98a6c" stroke-width="2.2" stroke-linecap="round"/>
     <!-- smile -->
